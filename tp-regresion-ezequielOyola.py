@@ -16,7 +16,7 @@ from sklearn.preprocessing import PolynomialFeatures, LabelEncoder
 from sklearn.tree import DecisionTreeRegressor
 warnings.filterwarnings("ignore")
 
-df = pd.read_csv("C:/Users/foyol/Desktop/paradigmas/TP-regression/dataset/anime.csv")
+df = pd.read_csv("/anime.csv")
 
 print("\nDESCRIPCION DE LA TABLA")
 print(df.describe())
